@@ -1,13 +1,13 @@
 @import 'base/variables';
-@import 'base/media';
+
 * {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-	position: relative;
-	width: 935px;
-	margin: 0 auto;
+    position: relative;
+    max-width: 935px;
+    margin: 0 auto;
 }
 
 @import 'blocks/product';
@@ -16,3 +16,4 @@
 @import 'blocks/catalog';
 @import 'blocks/button';
 @import 'blocks/share';
+@import 'base/media';
